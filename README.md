@@ -1,3 +1,3 @@
-# template
+# Kinetic Mangement Services
 
-This is a generic template repository to be used for any future project.
+Website for Kinetic Management Services.
