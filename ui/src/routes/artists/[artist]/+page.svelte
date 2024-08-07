@@ -2,7 +2,6 @@
 	import type { PageData } from './$types'
 
 	export let data: PageData
-	console.log('DATA (+page.svelte): ', data)
 </script>
 
-<h1>Artists</h1>
+<h1>Artist: {data.artist}</h1>

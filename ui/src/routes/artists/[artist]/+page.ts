@@ -1,4 +1,5 @@
-export function load({ params }) {
-	console.log('PARAMS (+page.js): ', params)
-	return params
+import type { PageLoadEvent } from './$types'
+
+export function load(event: PageLoadEvent) {
+	return event.params
 }
