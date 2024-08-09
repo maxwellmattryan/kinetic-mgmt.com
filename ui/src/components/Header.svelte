@@ -1,4 +1,4 @@
-<header class="flex flex-row justify-between border-b border-zinc-600 p-4">
+<header class="h-[8vh] flex flex-row items-center justify-between border-b border-zinc-600 p-4">
 	<header-logo><p>Kinetic Management</p></header-logo>
 	<nav>
 		<ul class="flex flex-row space-x-4">
