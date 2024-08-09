@@ -1,5 +1,5 @@
-<footer class="flex flex-col justify-between px-24 pb-8">
-	<footer-top class="flex flex-row space-x-96">
+<footer class="flex flex-col justify-between px-36 pb-8">
+	<footer-top class="flex flex-row space-x-72">
 		<footer-top-left>
 			<div>
 				<p>Kinetic Management</p>

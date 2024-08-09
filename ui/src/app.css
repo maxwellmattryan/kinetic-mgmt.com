@@ -2,23 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-/**
-Using color palette (Zinc) from TailwindCSS: https://tailwindcss.com/docs/customizing-colors
-    50  #fafafa
-    100 #f4f4f5
-    200 #e4e4e7
-    300 #d4d4d8
-    400 #a1a1aa
-    500 #71717a
-    600 #52525b
-    700 #3f3f46
-    800 #27272a
-    900 #18181b
-    950 #09090b
- */
+/* Using color palette (Zinc) from TailwindCSS: https://tailwindcss.com/docs/customizing-colors */
 
 html {
-	background-color: #09090b;
+	@apply bg-zinc-950;
+}
+
+h1 {
+	@apply text-4xl;
+}
+
+h2 {
+	@apply text-2xl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-semibold;
 }
 
 h1,
@@ -28,15 +32,14 @@ h4,
 h5,
 h6,
 p {
-	color: #fafafa;
+	@apply text-slate-50;
 }
 
 a {
-	color: #71717a;
-	transition-duration: 300ms;
-	transition-property: color;
+	@apply text-zinc-500;
+	@apply transition-colors duration-[250ms];
 
 	&:hover {
-		color: #fafafa;
+		@apply text-zinc-50;
 	}
 }
