@@ -1,7 +1,8 @@
 <script lang="ts">
-	import { Header } from '@components'
+	import { Footer, Header } from '@components'
 	import '../app.css'
 </script>
 
 <Header />
 <slot />
+<Footer />

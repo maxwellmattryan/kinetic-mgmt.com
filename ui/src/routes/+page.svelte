@@ -3,5 +3,7 @@
 </svelte:head>
 
 <home-page>
-	<h1>Welcome</h1>
+	<div class="h-[80vh]">
+		<h1>Welcome</h1>
+	</div>
 </home-page>
