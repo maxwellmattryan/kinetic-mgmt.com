@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+	<title>Kinetic Management | Welcome</title>
+</svelte:head>
+
+<home-page>
+	<h1>Welcome</h1>
+</home-page>
