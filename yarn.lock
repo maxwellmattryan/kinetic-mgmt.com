@@ -2589,7 +2589,7 @@ svelte@^4.2.7:
     magic-string "^0.30.4"
     periscopic "^3.1.0"
 
-svgo@^3.3.2:
+svgo@^3.0.0, svgo@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-3.3.2.tgz#ad58002652dffbb5986fc9716afe52d869ecbda8"
   integrity sha512-OoohrmuUlBs8B8o6MB2Aevn+pRIH9zDALSR+6hhqVfa6fRwG/Qw9VUMSMW9VNg2CFc/MTIfabtdOVl9ODIJjpw==
@@ -2719,6 +2719,13 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+vite-plugin-svelte-svg@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-svelte-svg/-/vite-plugin-svelte-svg-2.3.0.tgz#f046fa9f7043469f1fef60b7a85d58635086c0c3"
+  integrity sha512-Bzo62u9Fj9PDldSvPrUgCzIFc9MmNbhxAUdBCofPyPyuVtoKaQxtsI01JXLk35x8/OQFHfxoTShEgPxtd4+c9Q==
+  dependencies:
+    svgo "^3.0.0"
 
 vite@^5.0.3:
   version "5.3.5"
