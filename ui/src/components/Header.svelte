@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { COMPANY_NAME } from '$lib'
+	import { COMPANY_NAME } from '$lib/app'
 </script>
 
 <header class="h-[8vh] flex flex-row items-center justify-between border-b border-zinc-600 p-4">

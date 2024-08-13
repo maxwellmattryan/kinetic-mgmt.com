@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { COMPANY_NAME, CONTACT_EMAIL_ADDRESS } from '$lib'
+	import { COMPANY_NAME, CONTACT_EMAIL_ADDRESS } from '$lib/app'
 </script>
 
 <footer class="flex flex-col justify-between px-36 pb-8">

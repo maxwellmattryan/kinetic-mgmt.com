@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { CONTACT_EMAIL_ADDRESS } from '$lib'
+	import { CONTACT_EMAIL_ADDRESS } from '$lib/app'
 	import { Banner } from '@components'
 </script>
 
