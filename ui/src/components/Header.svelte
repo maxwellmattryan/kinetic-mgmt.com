@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { COMPANY_NAME } from '$lib'
+</script>
+
 <header class="h-[8vh] flex flex-row items-center justify-between border-b border-zinc-600 p-4">
-	<header-logo><p>Kinetic Management</p></header-logo>
+	<header-logo><p>{COMPANY_NAME}</p></header-logo>
 	<nav>
 		<ul class="flex flex-row space-x-4">
 			<li><a href="/">Home</a></li>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { CONTACT_EMAIL_ADDRESS } from '$lib'
 	import { Banner } from '@components'
 </script>
 
@@ -11,7 +12,7 @@
 	<div class="h-[32vh] flex flex-col items-center justify-center bg-zinc-200 mb-12">
 		<h2>Information</h2>
 		<p class="mt-2">Phone: +1 (512) 123-4567</p>
-		<p>Email: <a href="mailto:contact@kineticmanagement.com">contact@kineticmanagement.com</a></p>
+		<p>Email: <a href="mailto:{CONTACT_EMAIL_ADDRESS}">{CONTACT_EMAIL_ADDRESS}</a></p>
 	</div>
 </contact-page>
 
