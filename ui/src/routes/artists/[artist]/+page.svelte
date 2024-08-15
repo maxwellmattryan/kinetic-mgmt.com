@@ -6,7 +6,9 @@
 </script>
 
 <svelte:head>
-	<title>{COMPANY_NAME} | {data.artist}</title>
+	<title>{COMPANY_NAME} | {data.name}</title>
 </svelte:head>
 
-<h1>Artist: {data.artist}</h1>
+{#if data}
+	<h1>Artist: {data.name}</h1>
+{/if}
