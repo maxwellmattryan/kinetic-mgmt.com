@@ -2,6 +2,20 @@ export enum City {
 	Austin = 'Austin',
 }
 
+export enum Color {
+	Zinc50 = '#fafafa',
+	Zinc100 = '#f4f4f5',
+	Zinc200 = '#e4e4e7',
+	Zinc300 = '#d4d4d8',
+	Zinc400 = '#a1a1aa',
+	Zinc500 = '#71717a',
+	Zinc600 = '#52525b',
+	Zinc700 = '#3f3f46',
+	Zinc800 = '#27272a',
+	Zinc900 = '#18181b',
+	Zinc950 = '#09090b',
+}
+
 export enum Country {
 	US = 'US',
 }
@@ -30,6 +44,12 @@ export enum Icon {
 	SoundCloud = 'soundcloud',
 	Spotify = 'spotify',
 	YouTube = 'youtube',
+}
+
+export enum IconSize {
+	Small = '12px',
+	Medium = '20px',
+	Large = '28px',
 }
 
 export enum Label {
