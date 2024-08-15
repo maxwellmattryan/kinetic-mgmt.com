@@ -1,18 +1,17 @@
 <script lang="ts">
-	import { CONTACT_EMAIL_ADDRESS } from '$lib/app'
+	import { COMPANY_NAME, CONTACT_EMAIL_ADDRESS } from '$lib/app'
 	import { Banner } from '@components'
 </script>
 
 <svelte:head>
-	<title>Kinetic Management | Contact</title>
+	<title>{COMPANY_NAME} | Contact</title>
 </svelte:head>
 
 <contact-page>
 	<Banner header="Contact" />
 	<div class="h-[32vh] flex flex-col items-center justify-center bg-zinc-200 mb-12">
 		<h2>Information</h2>
-		<p class="mt-2">Phone: +1 (512) 123-4567</p>
-		<p>Email: <a href="mailto:{CONTACT_EMAIL_ADDRESS}">{CONTACT_EMAIL_ADDRESS}</a></p>
+		<p class="mt-4">Email: <a href="mailto:{CONTACT_EMAIL_ADDRESS}">{CONTACT_EMAIL_ADDRESS}</a></p>
 	</div>
 </contact-page>
 

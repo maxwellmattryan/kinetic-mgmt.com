@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { COMPANY_NAME } from '$lib/app'
+</script>
+
 <svelte:head>
-	<title>Kinetic Management | Page Not Found</title>
+	<title>{COMPANY_NAME} | Page Not Found</title>
 </svelte:head>
 
 <error-page>

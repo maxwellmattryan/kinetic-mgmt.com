@@ -53,5 +53,7 @@ export enum IconSize {
 }
 
 export enum Label {
+	BullyBeatz = 'Bully Beatz',
 	PerfectDark = 'Perfect Dark',
+	SoundKleckseRecords = 'Sound Kleckse Records',
 }

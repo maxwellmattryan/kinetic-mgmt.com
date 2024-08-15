@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { COMPANY_NAME } from '$lib/app'
+</script>
+
 <svelte:head>
-	<title>Kinetic Management | Home</title>
+	<title>{COMPANY_NAME} | Home</title>
 </svelte:head>
 
 <home-page>

@@ -4,6 +4,7 @@ export interface IArtist {
 	name: string
 	location: IArtistLocation
 	bio: string
+	images: string[]
 	genres: Genre[]
 	links: ILink[]
 	labels?: Label[]
