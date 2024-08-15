@@ -3,7 +3,7 @@
 </script>
 
 <footer class="flex flex-col justify-between px-36 pb-8">
-	<footer-top class="flex flex-row space-x-72">
+	<footer-top class="flex flex-row justify-between">
 		<footer-top-left>
 			<div>
 				<p>{COMPANY_NAME}</p>

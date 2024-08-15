@@ -3,6 +3,7 @@ import { City, Country, Genre, type IArtist, Icon, Label } from '$lib/app'
 export const ARTISTS: IArtist[] = [
 	{
 		name: 'Apellum',
+		page: 'apellum',
 		location: {
 			city: City.Austin,
 			country: Country.US,
@@ -20,6 +21,7 @@ export const ARTISTS: IArtist[] = [
 	},
 	{
 		name: 'Natch Nadjafi',
+		page: 'natch-nadjafi',
 		location: {
 			city: City.Austin,
 			country: Country.US,

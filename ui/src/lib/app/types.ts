@@ -2,6 +2,7 @@ import { City, Country, Genre, Label, Icon } from './enums'
 
 export interface IArtist {
 	name: string
+	page: string
 	location: IArtistLocation
 	bio: string
 	images: string[]
