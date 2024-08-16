@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Color, COMPANY_NAME, Icon as IconName } from '$lib/app'
+	import { Color, COMPANY_NAME, getColorHexFromIcon, Icon as IconName } from '$lib/app'
 	import { Banner, Icon } from '@components'
 	import type { PageData } from './$types'
 	import { base } from '$app/paths'
@@ -20,7 +20,12 @@
 				{#each data.links as link}
 					<a href={link.url}>
 						{#if link.icon}
-							<Icon icon={link.icon} size="sm" color={Color.Zinc950} />
+							<Icon
+								icon={link.icon}
+								size="sm"
+								color={Color.Zinc950}
+								hoverColor={getColorHexFromIcon(link.icon)}
+							/>
 						{/if}
 					</a>
 				{/each}
