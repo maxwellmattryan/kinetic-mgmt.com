@@ -16,6 +16,34 @@ export const ARTISTS: IArtist[] = [
 				url: 'https://instagram.com/apellum',
 				icon: Icon.Instagram,
 			},
+			{
+				url: 'https://facebook.com/apellummusic',
+				icon: Icon.Facebook,
+			},
+			{
+				url: 'https://ra.co/dj/apellum',
+				icon: Icon.ResidentAdvisor,
+			},
+			{
+				url: 'https://open.spotify.com/artist/2MOOYBdY5kjSsiTCugonnJ?si=pkeY-d3nRESBSXIjGSu-sg',
+				icon: Icon.Spotify,
+			},
+			{
+				url: 'https://music.apple.com/us/artist/apellum/1535711525',
+				icon: Icon.AppleMusic,
+			},
+			{
+				url: 'https://soundcloud.com/apellum',
+				icon: Icon.SoundCloud,
+			},
+			{
+				url: 'https://apellum.bandcamp.com',
+				icon: Icon.Bandcamp,
+			},
+			{
+				url: 'https://www.beatport.com/artist/apellum/1217073',
+				icon: Icon.Beatport,
+			},
 		],
 		labels: [Label.PerfectDark],
 	},
