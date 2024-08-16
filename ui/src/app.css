@@ -4,7 +4,8 @@
 
 /* Using color palette (Zinc) from TailwindCSS: https://tailwindcss.com/docs/customizing-colors */
 
-html {
+html,
+body {
 	@apply bg-zinc-950;
 }
 
