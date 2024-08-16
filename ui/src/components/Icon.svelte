@@ -32,6 +32,8 @@
 	export let icon: Icon | undefined
 	export let size: 'sm' | 'md' | 'lg' = 'md'
 	export let color: Color = Color.Zinc300
+	export let hoverColor: string | undefined
+	export let disableHover: boolean | undefined = false
 
 	function getPixelsFromSize(size: string): number {
 		switch (size) {
@@ -48,7 +50,11 @@
 </script>
 
 {#if icon && icon in ICONS}
-	<div style="--size: {getPixelsFromSize(size)}px; --color: {color};">
+	<div
+		class={disableHover ? 'disable-hover' : ''}
+		style="--size: {getPixelsFromSize(size)}px; --color: {color}; --hover-color: {hoverColor ??
+			Color.Zinc200}"
+	>
 		<!-- eslint-disable svelte/no-at-html-tags -->
 		{@html ICONS[icon]}
 	</div>
@@ -59,5 +65,13 @@
 		width: var(--size);
 		height: var(--size);
 		fill: var(--color);
+	}
+
+	div:not(.disable-hover) :global(svg) {
+		transition: fill 250ms;
+
+		&:hover {
+			fill: var(--hover-color);
+		}
 	}
 </style>

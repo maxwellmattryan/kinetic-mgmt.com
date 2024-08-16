@@ -20,22 +20,22 @@
 				{#each data.links as link}
 					<a href={link.url}>
 						{#if link.icon}
-							<Icon icon={link.icon} color={Color.Zinc950} size="sm" />
+							<Icon icon={link.icon} size="sm" color={Color.Zinc950} />
 						{/if}
 					</a>
 				{/each}
 			</div>
 			<div class="flex flex-row space-x-2 items-center mt-8">
-				<Icon icon={IconName.Location} color={Color.Zinc950} size="sm" />
+				<Icon icon={IconName.Location} size="sm" color={Color.Zinc950} disableHover={true} />
 				<p>{data.location.city}, {data.location.country}</p>
 			</div>
 			<div class="flex flex-row space-x-2 items-center mt-2">
-				<Icon icon={IconName.Genre} color={Color.Zinc950} size="sm" />
+				<Icon icon={IconName.Genre} size="sm" color={Color.Zinc950} disableHover={true} />
 				<p>{data.genres.join(', ')}</p>
 			</div>
 			{#if data.labels && data.labels.length > 0}
 				<div class="flex flex-row space-x-2 items-center mt-2">
-					<Icon icon={IconName.Label} color={Color.Zinc950} size="sm" />
+					<Icon icon={IconName.Label} size="sm" color={Color.Zinc950} disableHover={true} />
 					<p>{data.labels.join(', ')}</p>
 				</div>
 			{/if}
