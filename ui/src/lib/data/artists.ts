@@ -62,6 +62,34 @@ export const ARTISTS: IArtist[] = [
 				url: 'https://instagram.com/natchnadjafi',
 				icon: Icon.Instagram,
 			},
+			{
+				url: 'https://facebook.com/natchnadjafi',
+				icon: Icon.Facebook,
+			},
+			{
+				url: 'https://ra.co/dj/natchnadjafi',
+				icon: Icon.ResidentAdvisor,
+			},
+			{
+				url: 'https://open.spotify.com/artist/0JJfwYQvK1Th71ZCpC7GfA?si=4CKCZmE0SjOGNxkrpASp5g',
+				icon: Icon.Spotify,
+			},
+			{
+				url: 'https://music.apple.com/us/artist/natch-nadjafi/1112385645',
+				icon: Icon.AppleMusic,
+			},
+			{
+				url: 'https://soundcloud.com/natchnadjafi',
+				icon: Icon.SoundCloud,
+			},
+			{
+				url: 'https://natchnadjafi.bandcamp.com',
+				icon: Icon.Bandcamp,
+			},
+			{
+				url: 'https://www.beatport.com/artist/natch-nadjafi/1127825',
+				icon: Icon.Beatport,
+			},
 		],
 		labels: [Label.BullyBeatz, Label.SoundKleckseRecords],
 	},
