@@ -16,7 +16,7 @@
 		</footer-top-left>
 		<footer-top-right class="flex items-center">
 			<nav>
-				<ul class="flex flex-row space-x-4">
+				<ul class="flex flex-row space-x-6">
 					<li><a href="/">Home</a></li>
 					<li><a href="/artists">Artists</a></li>
 					<li><a href="/contact">Contact</a></li>

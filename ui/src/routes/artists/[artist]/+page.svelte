@@ -16,9 +16,9 @@
 	<div class="bg-zinc-200 flex flex-row space-x-8 justify-between px-36 py-12 mb-12">
 		<div class="flex flex-col flex-1 flex-grow items-center">
 			<h2 class="text-zinc-950">{data.name}</h2>
-			<div class="flex flex-row mt-6 space-x-4">
+			<div class="flex flex-row space-x-4 mt-6">
 				{#each data.links as link}
-					<a href={link.url}>
+					<a href={link.url} target="_blank">
 						{#if link.icon}
 							<Icon
 								icon={link.icon}
