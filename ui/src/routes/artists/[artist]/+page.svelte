@@ -23,8 +23,10 @@
 
 <artist-page>
 	<Banner header="Artists" />
-	<div class="bg-zinc-200 flex flex-row space-x-8 justify-between px-36 py-12 mb-12">
-		<div class="flex flex-col flex-1 flex-grow items-center">
+	<div
+		class="bg-zinc-200 flex flex-col-reverse md:flex-row md:space-x-8 md:items-center justify-between px-12 md:px-36 py-12 mb-12"
+	>
+		<div class="flex flex-col flex-1 flex-grow items-center mt-6 md:mt-0">
 			<h2 class="text-zinc-950">{data.name}</h2>
 			<div class="flex flex-row space-x-4 mt-6">
 				{#each data.links as link}
@@ -59,7 +61,7 @@
 		</div>
 		<div class="flex flex-1 flex-grow justify-center">
 			<img
-				class="object-cover max-w-[40vw] max-h-[70vh]"
+				class="object-cover md:max-w-[40vw] md:max-h-[70vh]"
 				src="{base}/images/artist_{data.images[1] ?? data.images[0]}"
 				alt="{data.name} image"
 			/>
