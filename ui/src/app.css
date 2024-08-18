@@ -45,6 +45,11 @@ a {
 	}
 }
 
+p,
+a {
+	@apply text-sm md:text-base;
+}
+
 @keyframes fade-in {
 	0% {
 		opacity: 0;

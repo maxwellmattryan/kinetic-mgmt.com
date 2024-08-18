@@ -9,7 +9,7 @@
 		<a href="/" class="font-semibold">{COMPANY_NAME}</a>
 	</header-logo>
 	<nav>
-		<ul class="flex flex-row space-x-6">
+		<ul class="flex flex-row space-x-4 md:space-x-6">
 			<li><a href="/">Home</a></li>
 			<li><a href="/artists">Artists</a></li>
 			<li><a href="/contact">Contact</a></li>

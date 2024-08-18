@@ -12,14 +12,14 @@
 </svelte:head>
 
 <home-page>
-	<div class="h-[92vh] px-48 flex flex-col items-center justify-center">
-		<p class="hero-text text-5xl leading-[4rem] text-center">
+	<div class="h-[92vh] px-12 md:px-48 flex flex-col items-center justify-center">
+		<p class="hero-text text-2xl md:text-5xl leading-[2rem] md:leading-[4rem] text-center">
 			Guiding electronic artists to break boundaries and build legacies.
 		</p>
 		<button class="hero-button mt-16" on:click={() => goToArtistsPage()}> See roster </button>
 	</div>
-	<div class="bg-zinc-200 px-60 py-12 mb-12">
-		<p class="text-zinc-950 text-xl text-center">
+	<div class="bg-zinc-200 px-12 md:px-60 py-12 mb-12">
+		<p class="text-zinc-950 text-base md:text-xl text-center">
 			Kinetic Management is dedicated to propelling the careers of innovative electronic music
 			artists, amplifying their creative vision, and connecting them with global audiences. We
 			provide personalized, strategic management that empowers our artists to break boundaries,
