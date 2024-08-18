@@ -11,8 +11,8 @@
 
 <artists-page>
 	<Banner header="Artists" />
-	<div class="bg-zinc-200 px-36 py-12 mb-12">
-		<div class="grid grid-cols-3 gap-12 grid-items-center">
+	<div class="bg-zinc-200 px-12 md:px-36 py-12 mb-12">
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-12 grid-items-center">
 			{#each ARTISTS as artist, idx}
 				<div class="artist" style="--index: {idx};">
 					<a href="/artists/{artist.page}">

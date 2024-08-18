@@ -9,7 +9,7 @@
 
 <contact-page>
 	<Banner header="Contact" />
-	<div class="h-[32vh] flex flex-col items-center justify-center bg-zinc-200 mb-12">
+	<div class="h-[39vh] md:h-[32vh] flex flex-col items-center justify-center bg-zinc-200 mb-12">
 		<h2>Information</h2>
 		<p class="mt-4">Email: <a href="mailto:{CONTACT_EMAIL_ADDRESS}">{CONTACT_EMAIL_ADDRESS}</a></p>
 	</div>
