@@ -153,6 +153,12 @@ export const ARTISTS: IArtist[] = [
 				icon: Icon.Beatport,
 			},
 		],
-		labels: [Label.BullyBeatz, Label.SoundKleckseRecords],
+		labels: [
+			Label.Anarkick,
+			Label.BullyBeatz,
+			Label.Fade2Black,
+			Label.MusicForAliens,
+			Label.SoundKleckseRecords,
+		],
 	},
 ]

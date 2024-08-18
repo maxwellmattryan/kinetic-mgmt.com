@@ -42,18 +42,27 @@
 					</a>
 				{/each}
 			</div>
-			<div class="flex flex-row space-x-2 items-center mt-8">
-				<Icon icon={IconName.Location} size="sm" color={Color.Zinc950} disableHover={true} />
+			<div class="flex flex-col space-y-1 items-center mt-8">
+				<div class="flex flex-col space-y-1 items-center justify-center">
+					<Icon icon={IconName.Location} size="sm" color={Color.Zinc950} disableHover={true} />
+					<p class="icon-label">LOCATION</p>
+				</div>
 				<p>{data.location.city}, {data.location.country}</p>
 			</div>
-			<div class="flex flex-row space-x-2 items-center mt-2">
-				<Icon icon={IconName.Genre} size="sm" color={Color.Zinc950} disableHover={true} />
-				<p>{data.genres.join(', ')}</p>
+			<div class="flex flex-col space-y-1 items-center mt-4">
+				<div class="flex flex-col space-y-1 items-center justify-center">
+					<Icon icon={IconName.Genre} size="sm" color={Color.Zinc950} disableHover={true} />
+					<p class="icon-label">{data.genres.length > 1 ? 'GENRES' : 'GENRE'}</p>
+				</div>
+				<p class="text-center">{data.genres.join(', ')}</p>
 			</div>
 			{#if data.labels && data.labels.length > 0}
-				<div class="flex flex-row space-x-2 items-center mt-2">
-					<Icon icon={IconName.Label} size="sm" color={Color.Zinc950} disableHover={true} />
-					<p>{data.labels.join(', ')}</p>
+				<div class="flex flex-col space-y-1 items-center mt-4">
+					<div class="flex flex-col space-y-1 items-center justify-center">
+						<Icon icon={IconName.Label} size="sm" color={Color.Zinc950} disableHover={true} />
+						<p class="icon-label">LABELS</p>
+					</div>
+					<p class="text-center">{data.labels.join(', ')}</p>
 				</div>
 			{/if}
 			<p class="text-justify mt-8 whitespace-break-spaces">{data.bio}</p>
@@ -72,6 +81,11 @@
 <style lang="postcss">
 	p {
 		@apply text-zinc-950;
+	}
+
+	.icon-label {
+		@apply text-xs;
+		@apply text-zinc-700;
 	}
 
 	button {
