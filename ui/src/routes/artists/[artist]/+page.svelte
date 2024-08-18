@@ -56,7 +56,7 @@
 					<p>{data.labels.join(', ')}</p>
 				</div>
 			{/if}
-			<p class="text-justify mt-8">{data.bio}</p>
+			<p class="text-justify mt-8 whitespace-break-spaces">{data.bio}</p>
 			<button class="mt-8" on:click={() => onBookNowClick()}>Book now</button>
 		</div>
 		<div class="flex flex-1 flex-grow justify-center">

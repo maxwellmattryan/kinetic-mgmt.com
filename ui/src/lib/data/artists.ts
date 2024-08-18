@@ -8,7 +8,12 @@ export const ARTISTS: IArtist[] = [
 			city: City.Austin,
 			country: Country.US,
 		},
-		bio: 'In the dynamic landscape of electronic music, Apellum stands as a techno producer and DJ deeply rooted in the vibrant Austin scene. With a diverse background as a percussionist, audio engineer, and sound designer, Apellum artfully weaves together influences from a vast spectrum of musical genres, crafting a sonic tapestry that resonates closely with the groovy, hypnotic, and raw essence of Berlin techno. Fans can look forward to his new EP, "Scenes of Water", which is an experience exploring the natural world as it features water, represented by the dub sounds in the music.',
+		bio:
+			'In the dynamic landscape of electronic music, Apellum stands as a techno producer and DJ deeply rooted in the vibrant Austin scene. With a diverse background as a percussionist, audio engineer, and sound designer, Apellum artfully weaves together influences from a vast spectrum of musical genres, crafting a sonic tapestry that resonates closely with the groovy, hypnotic, and raw essence of Berlin techno.' +
+			'\n\n' +
+			"Within the techno scene, Apellum finds inspiration in many artists from multiple sub-genres, such as Rene Wise for raw and groovy techno, Ketch for dark and cerebral techno, and Wata Igarashi for hypnotic dub techno. Beyond the confines of techno, Apellum's creative canvas is painted with shades of jungle, trance, jazz, fusion, funk, and classical, among many others." +
+			'\n\n' +
+			'Apellum\'s studio has been a realm of exploration and creativity, where new sounds and music are discovered and crafted. Fans can look forward to his new EP, "Voyager", which is an experience exploring the vastness and hostility of space travel in a futuristic world.',
 		images: ['apellum_01.jpg'],
 		genres: [Genre.HypnoticTechno, Genre.RawTechno],
 		links: [
@@ -46,6 +51,63 @@ export const ARTISTS: IArtist[] = [
 			},
 		],
 		labels: [Label.PerfectDark],
+	},
+	{
+		name: 'Catao',
+		page: 'catao',
+		location: {
+			city: City.Austin,
+			country: Country.US,
+		},
+		bio:
+			'Joao Pedro Catao is a DJ and producer from São Paulo, Brazil. While attending the University of Wisconsin, Catao forged his name within the club scene becoming well known throughout the midwest for being an electric performer, with masterful ability to ignite any crowd under hypnotizing control.' +
+			'\n\n' +
+			"Catao has provided support for major artists, some of which are ranked in DJ Mag's Top 100, including James Hype, ACraze, Valentino Khan, Cat Dealers, Snakehips, Adventure Club, and many more." +
+			'\n\n' +
+			"Catao's unique and versatile DJ style is derived from a mixture of flavors such as House, Hip-Hop, Disco, and a wide range of Latin sounds such as Brazilian Jazz, Reggaeton, and Baile Funk." +
+			'\n\n' +
+			'As a producer, Catao delivers some of the hottest mixes and songs within these genres, but specializes in the G-House genre that is quickly rising to global prominence.',
+		images: ['catao_01.jpg'],
+		genres: [Genre.DeepHouse, Genre.TechHouse],
+		links: [
+			{
+				url: 'https://www.instagram.com/jcatao',
+				icon: Icon.Instagram,
+			},
+			{
+				url: 'https://www.facebook.com/cataoodt',
+				icon: Icon.Facebook,
+			},
+			{
+				url: 'https://soundcloud.com/cataoodt',
+				icon: Icon.SoundCloud,
+			},
+		],
+	},
+	{
+		name: 'Mellia',
+		page: 'mellia',
+		location: {
+			city: City.Austin,
+			country: Country.US,
+		},
+		bio: 'With the root “Mel” meaning both “honey” and “dark,” Mellia creates soundscapes that infuse sweet and melodic with heavy and deep for a journey through the light and the darkness. Her styles of house expand through deep, melodic, tech, progressive and organic plus techno, melodic techno and psy-trance.',
+		images: ['mellia_01.jpg'],
+		genres: [Genre.Hardgroove, Genre.Psytrance],
+		links: [
+			{
+				url: 'https://www.instagram.com/melliamusic',
+				icon: Icon.Instagram,
+			},
+			{
+				url: 'https://ra.co/dj/mellia',
+				icon: Icon.ResidentAdvisor,
+			},
+			{
+				url: 'https://soundcloud.com/melliamusic',
+				icon: Icon.SoundCloud,
+			},
+		],
 	},
 	{
 		name: 'Natch Nadjafi',
