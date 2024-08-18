@@ -3,8 +3,6 @@
 	import { COMPANY_NAME } from '$lib/app'
 	import { ARTISTS } from '$lib/data'
 	import { Banner } from '@components'
-
-	let artists = [...ARTISTS, ...ARTISTS, ...ARTISTS, ...ARTISTS]
 </script>
 
 <svelte:head>
@@ -15,7 +13,7 @@
 	<Banner header="Artists" />
 	<div class="bg-zinc-200 px-36 py-12 mb-12">
 		<div class="grid grid-cols-3 gap-12 grid-items-center">
-			{#each artists as artist, idx}
+			{#each ARTISTS as artist, idx}
 				<div class="artist" style="--index: {idx};">
 					<a href="/artists/{artist.page}">
 						<img

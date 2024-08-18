@@ -1,10 +1,20 @@
 <script lang="ts">
-	import { Color, COMPANY_NAME, getColorHexFromIcon, Icon as IconName } from '$lib/app'
+	import { base } from '$app/paths'
+	import {
+		Color,
+		COMPANY_NAME,
+		CONTACT_EMAIL_ADDRESS,
+		getColorHexFromIcon,
+		Icon as IconName,
+	} from '$lib/app'
 	import { Banner, Icon } from '@components'
 	import type { PageData } from './$types'
-	import { base } from '$app/paths'
 
 	export let data: PageData
+
+	function onBookNowClick(): void {
+		location.href = `mailto:${CONTACT_EMAIL_ADDRESS}`
+	}
 </script>
 
 <svelte:head>
@@ -44,7 +54,8 @@
 					<p>{data.labels.join(', ')}</p>
 				</div>
 			{/if}
-			<p class="text-justify mt-12">{data.bio}</p>
+			<p class="text-justify mt-8">{data.bio}</p>
+			<button class="mt-8" on:click={() => onBookNowClick()}>Book now</button>
 		</div>
 		<div class="flex flex-1 flex-grow justify-center">
 			<img
@@ -59,5 +70,18 @@
 <style lang="postcss">
 	p {
 		@apply text-zinc-950;
+	}
+
+	button {
+		@apply bg-zinc-200;
+		@apply text-zinc-950;
+		@apply border-2 rounded border-zinc-950;
+		@apply px-4 py-2;
+		@apply transition-colors duration-[250ms];
+
+		&:hover {
+			@apply bg-zinc-950;
+			@apply text-zinc-50;
+		}
 	}
 </style>
