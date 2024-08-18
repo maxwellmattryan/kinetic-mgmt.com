@@ -116,8 +116,8 @@ export const ARTISTS: IArtist[] = [
 			city: City.Austin,
 			country: Country.US,
 		},
-		bio: 'Natch Nadjafi, co-founder of KITCHEN TECHNO, is an electronic rock and techno music producer renowned for his project, Casualty Process. Transitioning from rock to European-style techno, he garnered attention from prestigious German, Italian, and Spanish labels. His two-decade career embodies boundless creativity and unwavering passion.',
-		images: ['natch-nadjafi_01.jpg'],
+		bio: 'Natch Nadjafi is an electronic rock and techno producer and performer known for his project Casualty Process. After gaining attention with home-recorded tracks in 2009 and being invited to SXSW, he based himself in Brooklyn, NY, following a national tour in 2011. Featured by NPR, WNYC, BBC, and MTV, Natch has also been part of the Voices of Revolution project, with his music featured in campaigns by Nokia and Amazon, and the film "Desert Dancer." With a career spanning two decades, Natch’s shift from electric rock to European-style techno has drawn attention from prominent European labels. His DJ sets blend raw, powerful beats with intricate grooves, reflecting his deep understanding of techno. Co-founder of KITCHEN TECHNO, Natch is committed to elevating Austin’s techno scene with community-focused events and a unique, immersive experience.',
+		images: ['natch-nadjafi_01.jpg', 'natch-nadjafi_02.jpg'],
 		genres: [Genre.HardTechno, Genre.Schranz],
 		links: [
 			{
