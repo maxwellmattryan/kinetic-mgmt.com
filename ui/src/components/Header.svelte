@@ -5,7 +5,9 @@
 <header
 	class="h-[8vh] flex flex-row items-center justify-between border-b border-zinc-600 px-6 py-4"
 >
-	<header-logo><p>{COMPANY_NAME}</p></header-logo>
+	<header-logo>
+		<a href="/" class="font-semibold">{COMPANY_NAME}</a>
+	</header-logo>
 	<nav>
 		<ul class="flex flex-row space-x-6">
 			<li><a href="/">Home</a></li>
@@ -15,3 +17,13 @@
 	</nav>
 	<!--    <socials />-->
 </header>
+
+<style lang="postcss">
+	header-logo a {
+		@apply text-zinc-50;
+
+		&:hover {
+			@apply text-zinc-50;
+		}
+	}
+</style>

@@ -49,7 +49,7 @@
 		<div class="flex flex-1 flex-grow justify-center">
 			<img
 				class="object-cover max-w-[40vw] max-h-[70vh]"
-				src="{base}/images/artist_{data.images[0]}"
+				src="{base}/images/artist_{data.images[1] ?? data.images[0]}"
 				alt="{data.name} image"
 			/>
 		</div>
