@@ -13,7 +13,7 @@
 
 <home-page>
 	<div
-		class="hero-background h-[92vh] px-12 md:px-48 flex flex-col items-center justify-center bg-[url('$lib/assets/images/landing-background.jpg')] md:bg-fixed bg-auto md:bg-cover bg-top md:bg-top"
+		class="hero-background h-[92vh] px-12 md:px-48 flex flex-col items-center justify-center md:bg-fixed bg-auto md:bg-cover bg-top md:bg-top"
 	>
 		<p
 			class="hero-text text-2xl md:text-5xl leading-[2rem] md:leading-[4rem] text-center -translate-y-10 md:-translate-y-12"
@@ -40,6 +40,8 @@
 <style lang="postcss">
 	.hero-background {
 		animation: fade-in 500ms ease-in-out both;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+			url('$lib/assets/images/landing-background.jpg');
 	}
 
 	.hero-text {
