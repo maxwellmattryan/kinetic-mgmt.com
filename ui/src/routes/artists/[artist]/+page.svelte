@@ -70,7 +70,7 @@
 		</div>
 		<div class="flex flex-1 flex-grow justify-center">
 			<img
-				class="object-cover md:max-w-[40vw] md:max-h-[70vh]"
+				class="object-cover md:max-w-[40vw] md:max-h-[70vh] rounded"
 				src="{base}/images/artist_{data.images[1] ?? data.images[0]}"
 				alt="{data.name} image"
 			/>

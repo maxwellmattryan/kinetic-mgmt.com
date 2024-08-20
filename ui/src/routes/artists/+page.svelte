@@ -17,7 +17,7 @@
 				<div class="artist" style="--index: {idx};">
 					<a href="/artists/{artist.page}">
 						<img
-							class="object-cover w-full max-h-[36vh]"
+							class="object-cover w-full max-h-[36vh] rounded-sm"
 							src="{base}/images/artist_{artist.images[0]}"
 							alt="{artist.name} image"
 						/>
@@ -40,6 +40,7 @@
 		@apply transition-opacity duration-[250ms];
 
 		&:hover {
+			@apply drop-shadow-sm;
 			@apply opacity-75;
 		}
 	}

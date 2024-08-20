@@ -12,11 +12,20 @@
 </svelte:head>
 
 <home-page>
-	<div class="h-[92vh] px-12 md:px-48 flex flex-col items-center justify-center">
-		<p class="hero-text text-2xl md:text-5xl leading-[2rem] md:leading-[4rem] text-center">
+	<div
+		class="hero-background h-[92vh] px-12 md:px-48 flex flex-col items-center justify-center bg-[url('$lib/assets/images/landing-background.jpg')] bg-fixed bg-auto md:bg-cover bg-top md:bg-top"
+	>
+		<p
+			class="hero-text text-2xl md:text-5xl leading-[2rem] md:leading-[4rem] text-center -translate-y-10 md:-translate-y-12"
+		>
 			Guiding electronic artists to break boundaries and build legacies.
 		</p>
-		<button class="hero-button mt-16" on:click={() => goToArtistsPage()}> See roster </button>
+		<button
+			class="hero-button mt-6 -translate-y-10 md:-translate-y-12"
+			on:click={() => goToArtistsPage()}
+		>
+			See roster
+		</button>
 	</div>
 	<div class="bg-zinc-200 px-12 md:px-60 py-12 mb-12">
 		<p class="text-zinc-950 text-base md:text-xl text-center">
@@ -29,6 +38,10 @@
 </home-page>
 
 <style lang="postcss">
+	.hero-background {
+		animation: fade-in 500ms ease-in-out both;
+	}
+
 	.hero-text {
 		animation: fade-in 750ms ease-in-out both;
 	}
@@ -38,14 +51,15 @@
 	}
 
 	button {
-		@apply bg-zinc-950;
+		@apply bg-zinc-950 bg-opacity-20;
 		@apply text-zinc-50;
-		@apply border-2 rounded border-zinc-50;
+		@apply border-2 rounded border-zinc-50 border-opacity-100;
 		@apply px-4 py-2;
 		@apply transition-colors duration-[250ms];
 
 		&:hover {
-			@apply bg-zinc-50;
+			@apply bg-zinc-50 bg-opacity-80;
+			@apply border-opacity-20;
 			@apply text-zinc-950;
 		}
 	}
