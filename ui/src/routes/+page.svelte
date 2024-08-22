@@ -30,9 +30,9 @@
 	<div class="bg-zinc-200 px-12 md:px-60 py-12 mb-12">
 		<p class="text-zinc-950 text-base md:text-xl text-center">
 			Kinetic Management is dedicated to propelling the careers of innovative electronic music
-			artists, amplifying their creative vision, and connecting them with global audiences. We
-			provide personalized, strategic management that empowers our artists to break boundaries,
-			build lasting legacies, and thrive in the ever-evolving musical landscape.
+			artists by amplifying their creative vision and connecting them with global audiences. We
+			provide personalized and strategic management services that empower our artists to break
+			boundaries, build lasting legacies, and thrive in an ever-evolving musical landscape.
 		</p>
 	</div>
 </home-page>
