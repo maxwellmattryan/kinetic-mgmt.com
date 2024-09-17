@@ -85,6 +85,52 @@ export const ARTISTS: IArtist[] = [
 		],
 	},
 	{
+		name: 'Hana Sabri',
+		page: 'hana-sabri',
+		location: {
+			city: City.Austin,
+			country: Country.US,
+		},
+		bio: "Hana Sabri is a versatile artist whose musical journey spans a lifetime. She is proficient in various instruments, with a particular emphasis on the flute, through which she has delivered captivating performances. Beyond her musical talents, Hana is also a professional aerial dancer, fitness trainer, and nutrition specialist. This diverse skill set allows her to approach her creative work with a holistic perspective, seamlessly blending artistry, physicality, and wellness. Hana's multifaceted expertise enriches her performances and makes her a dynamic force in the creative world.",
+		images: ['hana-sabri_01.jpg'],
+		genres: [Genre.RawTechno],
+		links: [
+			{
+				url: 'https://www.instagram.com/hanasabrimusic/',
+				icon: Icon.Instagram,
+			},
+			{
+				url: 'https://soundcloud.com/kitchentechnomusic',
+				icon: Icon.SoundCloud,
+			},
+		],
+	},
+	{
+		name: 'Joan Dark',
+		page: 'joan-dark',
+		location: {
+			city: City.Austin,
+			country: Country.US,
+		},
+		bio: "Joan Dark, named in homage to the French pronunciation of Jeanne d'Arc, is an indomitable force in the emerging electronic music scene of Austin, Texas. Embodying the spirit of her namesake, Joan seamlessly intertwines her technical expertise as a composer, producer, and audio engineer in the studio with a revolutionary vision on the dance floor.",
+		images: ['joan-dark_01.jpg'],
+		genres: [Genre.DeepTechno, Genre.HardTechno],
+		links: [
+			{
+				url: 'https://instagram.com/joan.dark.dj',
+				icon: Icon.Instagram,
+			},
+			{
+				url: 'https://open.spotify.com/artist/1uzX0w12noGvHdFOvptuJy?si=-PuRS07oQquD1VfYrui4pA',
+				icon: Icon.Spotify,
+			},
+			{
+				url: 'https://soundcloud.com/joandarkdj',
+				icon: Icon.SoundCloud,
+			},
+		],
+	},
+	{
 		name: 'Mellia',
 		page: 'mellia',
 		location: {

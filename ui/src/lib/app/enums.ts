@@ -22,6 +22,7 @@ export enum Country {
 
 export enum Genre {
 	DeepHouse = 'Deep House',
+	DeepTechno = 'Deep Techno',
 	Hardgroove = 'Hardgroove',
 	HardTechno = 'Hard Techno',
 	HypnoticTechno = 'Hypnotic Techno',
